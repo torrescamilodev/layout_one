@@ -44,3 +44,24 @@
     border-radius: 5px;
     border: 5px #cdc200 solid;
 }
+
+.aside{
+    display: inline-block;
+    background-color: #cdc200;
+    border: 5px #710000 solid;
+    border-top: 0;    
+}
+
+.aside .order{
+    margin: 30px;
+    width: 210px;
+    height: 210px;
+    border: 5px #00f1fd solid;
+    border-radius: 5px;
+    background-color: #000000;
+}
+
+.aside .order img{
+    width: 200px;
+    height: 200px ;
+}
