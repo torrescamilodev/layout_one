@@ -78,3 +78,30 @@
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
+
+.principal{
+    display: inline-block;
+    width: 85.3%;
+    height: 500px;
+    background-color: #575757;
+    position: absolute;
+}
+
+.principal .introduction{
+    margin: 30px;
+}
+
+.principal .introduction .title{
+    font-size: 36px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+
+}
+
+.principal .introduction .description{
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #710000;
+    text-align: justify;
+}
