@@ -82,16 +82,17 @@
 .principal{
     display: inline-block;
     width: 85.3%;
-    height: 500px;
+    height: 1115px;
     background-color: #575757;
     position: absolute;
 }
 
 .principal .introduction{
     margin: 30px;
+    margin-bottom: 100px;
 }
 
-.principal .introduction .title{
+.title{
     font-size: 36px;
     font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -99,9 +100,41 @@
 
 }
 
-.principal .introduction .description{
+.description{
     font-size: 24px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #710000;
     text-align: justify;
+}
+
+.principal .argument{
+    margin: 30px;
+}
+
+.characters{
+    display: inline-block;
+    margin: 30px;
+    text-align: center;
+    position: relative;
+    left: 150px;
+}
+
+.img-characters {
+    display: inline-block;
+    text-align: center;
+    /* width: 200px;
+    height: 200px; */
+    margin: auto 10px;
+    padding: 100px;
+}
+
+.img-characters img{
+    width: 200px;
+    height: 200px;
+}
+
+.img-characters figcaption{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: #710000;
 }
