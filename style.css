@@ -138,3 +138,43 @@
     font-size: 18px;
     color: #710000;
 }
+
+.footer{
+    display: inline-block;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.footer .social{
+    display: inline-block;
+    margin: 30px;
+    position: relative;
+    left: 50px;
+}
+
+.footer .menu li{
+    display: inline-flex ;
+    text-decoration: none;
+}
+
+.footer .menu li p{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #191919;
+    position: relative;
+    bottom: 25px
+}
+
+.footer .menu li img{
+    width: 70px;
+    height: 70px;
+    margin: 0 30px;
+}
+
+.footer .pay{
+    display: inline-block;
+    margin: 30px;
+    position: relative;
+    left: 500px;
+}
